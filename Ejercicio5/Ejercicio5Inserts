@@ -1,0 +1,8 @@
+use DIRECTORES
+'switched to db DIRECTORES'
+
+db.createCollection("DESPACHOS")
+db.DESPACHOS.insertOne({"numero":1,"Capacidad":5})
+
+db.createCollection("DIRECTORES")
+db.DIRECTORES.insertOne({"DNI":"12345678R","NomApels":"Joan"})
