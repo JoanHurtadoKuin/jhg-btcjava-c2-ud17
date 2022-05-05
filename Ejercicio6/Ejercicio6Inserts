@@ -1,0 +1,10 @@
+use Proveedores
+
+db.createCollection("PIEZAS")
+db.PIEZAS.insertOne({"id":1,"Nombre":"Pieza1"})
+
+db.createCollection("PROVEEDORES")
+db.PROVEEDORES.insertOne({"id":1,"Nombre":"Proveedor1"})
+
+db.createCollection("SUMINISTRA")
+db.SUMINISTRA.insertOne({"idPieza":1,"idProveedor":1,"Precio":100})
