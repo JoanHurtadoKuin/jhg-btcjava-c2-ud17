@@ -1,0 +1,13 @@
+use Investigadores
+
+db.createCollection("FACULTAD")
+db.FACULTAD.insertOne({"id":1,"Nombre":"Facultad1"})
+
+db.createCollection("EQUIPOS")
+db.FACULTAD.insertOne({"NumSerie":1,"Nombre":"Facultad1","idFacultad":1})
+
+db.createCollection("INVESTIGADORES")
+db.INVESTIGADORES.insertOne({"DNI":"12345678R","NomApels":"Joan","idFacultad":1})
+
+db.createCollection("RESERVA")
+db.RESERVA.insertOne({"DNI_Investigador":"12345678R","NumSerie":1,"Comienzo":'11-02-2022',"Fin":'11-04-2022'})
