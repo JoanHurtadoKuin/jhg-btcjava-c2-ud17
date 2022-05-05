@@ -1,0 +1,7 @@
+use Tienda_Informatica
+
+db.createCollection("FABRICANTES")
+db.FABRICANTES.insertOne({"id": 1, "nombre":"Fabricante1"})
+
+db.createCollection("ARTICULOS")
+db.ARTICULOS.insertOne({"id":1,"nombre":"Auriculares","Precio":100})
