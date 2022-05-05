@@ -1,3 +1,5 @@
+use GrandesAlmacenes
+
 db.createCollection("PRODUCTOS")
 db.createCollection("CAJEROS")
 db.createCollection("MAQUINAS_REGISTRADORAS")
