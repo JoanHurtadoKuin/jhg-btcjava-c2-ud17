@@ -1,0 +1,10 @@
+use Cientificos
+
+db.createCollection("CIENTIFICOS")
+db.CIENTIFICOS.insertOne({"DNI":"12345678R","NomApels":"Joan"})
+
+db.createCollection("PROYECTO")
+db.PROYECTO.insertOne({"id":1,"Nombre":"Proyecto1","Horas":1000})
+
+db.createCollection("ASIGNADO_A")
+db.ASIGNADO_A.insertOne({"dniCientifico":"12345678R","idProyecto":1})
