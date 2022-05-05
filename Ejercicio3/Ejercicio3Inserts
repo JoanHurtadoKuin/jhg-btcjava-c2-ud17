@@ -1,0 +1,7 @@
+use Almacenes
+
+db.createCollection("ALMACENES")
+db.ALMACENES.insertOne({"id":1,"Lugar":"Reus","Capacidad":100})
+
+db.createCollection("CAJAS")
+db.CAJAS.insertOne({"numReferencia":1,"Contenido":"Cajas1","Valor":1000})
