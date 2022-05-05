@@ -1,0 +1,7 @@
+use Cine
+
+db.createCollection("PELICULAS")
+db.PELICULAS.insertOne({"id":1,"Nombre":"Dr.Strange","CalificacionEdad":16})
+
+db.createCollection("SALAS")
+db.SALAS.insertOne({"id":1,"Nombre":"Sala1"})
