@@ -1,0 +1,8 @@
+[{
+  "_id": {
+    "$oid": "6274065e985c075ad273b652"
+  },
+  "id": 1,
+  "Nombre": "Departamento1",
+  "Presupuesto": 100
+}]
