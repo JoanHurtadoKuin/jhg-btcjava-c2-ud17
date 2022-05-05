@@ -1,0 +1,9 @@
+db.createCollection("PRODUCTOS")
+db.createCollection("CAJEROS")
+db.createCollection("MAQUINAS_REGISTRADORAS")
+db.createCollection("VENTA")
+
+db.PRODUCTOS.insertOne({"id":1,"Nombre":"Producto1","Precio":1})
+db.CAJEROS.insertOne({"id":1,"NomApels":"Cajero1"})
+db.MAQUINAS_REGISTRADORAS.insertOne({"id":1,"Piso":1})
+db.VENTA.insertOne({"idProducto":1,"idCajero":1,"idMaquinaRegistradora":1})
