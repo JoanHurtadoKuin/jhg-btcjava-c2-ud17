@@ -1,0 +1,8 @@
+[{
+  "_id": {
+    "$oid": "62741067985c075ad273b65d"
+  },
+  "idPieza": 1,
+  "idProveedor": 1,
+  "Precio": 100
+}]
